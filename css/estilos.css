@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
 *{  
     font-family: 'Ubuntu', sans-serif;
-    /*margin: 0;*/
-    /*padding: 0;*/
 }
 .fondoMadera{
     background-color: rgb(247, 194, 126);
 }
 .header{
-    /*width: 100%;*/
     background-color: rgba(68, 51, 16, 0.712);
     .logo{
         width: 100px;
     }
 }
 .h3footer{
-    /*margin-bottom: 20px;*/
     font-size: 1.5rem;
 }
 .parrafofooter{
     font-size: 1.1rem;
-    /*padding-bottom: 10px;*/
 }
 .footer{
     background-color: rgba(68, 51, 16, 0.479);
@@ -28,7 +23,6 @@
     .sectionfooter{
         margin-top: 20px;
         margin-bottom: 20px;
-
     }
     .iconowsp{
         position: fixed;
@@ -50,44 +44,9 @@
     }
 }
 .H1{
-    /*margin-top: 20px;*/
     font-size: 3rem;
     font-weight: 500;
 }
-/*.mainindex{
-    width: auto;
-    margin-bottom: 50px;
-    text-align: center;
-}*/
-
-/*.mainsection{
-    display: flex;
-    flex-direction: row;
-    row-gap: 10px;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-evenly;
-    /*.maindiv{
-        background-color: rgba(128, 128, 128, 0.514);
-        border-radius: 6px 6px 6px 6px;
-        box-shadow: 3px 7px 31px 0px rgba(0,0,0,0.53);
-        margin: 20px auto;
-        width: 40%;
-        object-fit: contain;
-        border: 1px solid rgba(0, 0, 0, 0.096);
-        .h2index{
-            text-decoration: underline;
-            margin-top: 20px;
-         }
-        .parrafoindex{
-            font-size: 1.1rem;
-            width: 50%;
-            margin: 0 auto;
-            margin-top: 20px;
-            padding-bottom: 20px;
-        }
-    }*/
-/*}*/
 @media (max-width: 576px){
     .maindiv{
         background-color: rgba(128, 128, 128, 0.514);
@@ -106,44 +65,25 @@
         width: 40%;
     }
 }
-/*.maindiv{
-     background-color: rgba(128, 128, 128, 0.514);
-     border-radius: 6px 6px 6px 6px;
-     box-shadow: 3px 7px 31px 0px rgba(0,0,0,0.53);
-     border: 1px solid rgba(0, 0, 0, 0.096);
-     width: 40%;
-     margin: 20px auto;
-     object-fit: contain;
-     /*.h2index{
-         text-decoration: underline;
-         margin-top: 20px;
-     }*/
-/*}*/
-
 .parrafoindex{
     font-size: 1.1rem;
-    /*width: 50%;*/
-    /*margin: 0 auto;*/
-    /*margin-top: 20px;*/
-    /*padding-bottom: 20px;*/
 }
-.mainproyecto{
-    margin-bottom: 50px;
-    text-align: center;
-    .parrafoproyecto{
-        font-weight: 500;
-        font-size: 1rem;
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-    .sectionproyecto{
-        margin-top: 20px;
-        .h2proyecto{
-            margin-bottom: 20px;
-        }
+.parrafoproyecto{
+    font-weight: 500;
+    font-size: 1rem;
+}
+@media(max-width: 576px){
+    .divsectionproyecto{
+        height: 33vh;
     }
 }
+@media(min-width: 577px) and (max-width: 1900px){
+    .divsectionproyecto{
+        height: 70vh;
+    }
+}
+
+
 .mainproductos{
     margin-bottom: 50px;
     text-align: center;
