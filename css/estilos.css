@@ -14,20 +14,21 @@
         width: 100px;
     }
 }
+.h3footer{
+    /*margin-bottom: 20px;*/
+    font-size: 1.5rem;
+}
+.parrafofooter{
+    font-size: 1.1rem;
+    /*padding-bottom: 10px;*/
+}
 .footer{
     background-color: rgba(68, 51, 16, 0.479);
     font-size: 2.5rem;
     .sectionfooter{
         margin-top: 20px;
         margin-bottom: 20px;
-        .h3footer{
-            margin-bottom: 20px;
-            font-size: 1.5rem;
-        }
-        .parrafofooter{
-            font-size: 1.1rem;
-            padding-bottom: 10px;
-        }
+
     }
     .iconowsp{
         position: fixed;
